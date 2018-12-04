@@ -10,8 +10,7 @@ sudo: true
 env:
   - JRUBY_OPTS="-Xcext.enabled=true"
 notifications:
-  recipients:
-    - activeldap@ml.commit-email.info
+  recipients: none
 before_install:
   - travis/before_install.sh
 before_script:
